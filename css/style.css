@@ -1,0 +1,113 @@
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+body { 
+    background-color: #ffffe5;
+    font-color: #000000;
+     font-family: 'Open Sans', sans-serif;
+     -webkit-font-smoothing: antialiased;
+}
+
+.jumbotron {
+	max-width: 100%;
+	margin: 0 auto;
+    width: 75rem;
+    background-color: #ffffe5;
+    color: #000000; 
+}
+
+#landing-page, #signup {
+    margin-bottom: 7rem;
+}
+
+button {
+	margin-top: 3rem;
+}
+
+
+p {
+	margin: 0 auto;
+	width: 75rem;
+	max-width: 100%;
+}
+
+.adjust_pTitle {
+	width: 75rem;
+	margin-bottom: 5rem;
+	max-width: 100%;
+	font-size: 3rem;
+}
+
+h1 {
+	margin-top: 10rem;
+}
+
+h2 {
+	margin-top: 6rem;
+	margin-bottom: 5rem;
+}
+
+img {
+	padding-top: 8rem;
+	padding-bottom: 6rem;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    p {
+	  margin: 0 auto;
+	  width: 75rem;
+	  max-width: 100%;
+	  font-size: 1.6rem;
+    }
+
+    .adjust_pTitle {
+      width: 75rem;
+	  margin-bottom: 5rem;
+	  max-width: 100%;
+	  font-size: 2.5rem;
+    }
+
+    img {
+      width: 330px;
+      height: 460px;
+	  padding-top: 8rem;
+	  padding-bottom: 6rem;
+	  margin: 0 auto;
+    }
+
+}
+
+@media only screen and (max-width : 480px) {
+	.jumbotron {
+	  max-width: 100%;
+	  margin: 0 auto;
+      width: 50rem;
+      background-color: #ffffe5;
+      color: #000000; 
+    }
+
+    p {
+	  margin: 0 auto;
+	  width: 50rem;
+	  max-width: 100%;
+	  font-size: 1.6rem;
+    }
+
+    .adjust_pTitle {
+	  margin-bottom: 5rem;
+	  max-width: 100%;
+	  width: 50rem;
+	  font-size: 2.5rem;
+    }
+
+    img {
+      width: 330px;
+      height: 460px;
+	  padding-top: 8rem;
+	  padding-bottom: 6rem;
+	  margin: 0 auto;
+    }
+}
