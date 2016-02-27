@@ -25,15 +25,17 @@
     <h1>Most samples are available for a limited time only!</h1>
     <h2>Sign up to redeem while supplies last</h2>
 
-    <form id="signupForm" charset=UTF-8" action="./thank-you.html">
+    <form id="signupForm" charset=UTF-8 method="POST">
       <input type="text" placeholder="First Name" name="firstName"/>
       <input type="text" placeholder="Last Name" name="lastName"/>
       <input type="text" placeholder="Email" name="email"/>
       <input type="text" placeholder="Phone Number" name="phone"/>
-      <input type="text" placeholder="Street Address" name="streetAddress"/>
+      <input type="text" placeholder="Street Address" name="street"/>
       <input type="text" placeholder="City" name="city"/>
       <input type="text" placeholder="State" name="state"/>
       <input type="text" placeholder="Zip" name="zip"/>
+      <input type="hidden" name="applicant" value="ws"/>
+      <input type="hidden" name="cookie" value="firstName=William; lastName=Strauss; sourceInput=​Facebook; id=51b7af297665ebc546c39a34"/>
       <br>
       <button class="buttonProperties" type="submit">submit</button>
     </form>
